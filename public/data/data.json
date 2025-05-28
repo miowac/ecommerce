@@ -1,0 +1,50 @@
+[
+{
+    "id": 1,
+    "nombre": "Angel Cristal",
+    "precio": 25.0,
+    "stock": 20,
+    "imagen": "https://gestion.miowac.com.ar/uploads/stock/productos/49/34/cristal.jpeg",
+    "categoria": "cristal"
+  },
+  {
+    "id": 2,
+    "nombre": "Angel Metal",
+    "precio": 15.0,
+    "stock": 18,
+    "imagen": "https://gestion.miowac.com.ar/uploads/stock/productos/49/39/metal.jpeg",
+    "categoria": "metal"
+  },
+  {
+    "id": 3,
+    "nombre": "Angel Central",
+    "precio": 30.0,
+    "stock": 12,
+    "imagen": "https://gestion.miowac.com.ar/uploads/stock/productos/49/18/metal2.jpeg",
+    "categoria": "metal"
+  },
+  {
+    "id": 4,
+    "nombre": "Angel Colgante",
+    "precio": 19.5,
+    "stock": 15,
+    "imagen": "https://gestion.miowac.com.ar/uploads/stock/productos/49/4/colgante.jpeg",
+    "categoria": "cristal"
+  },
+  {
+    "id": 5,
+    "nombre": "Angel con Fleco",
+    "precio": 15.0,
+    "stock": 20,
+    "imagen": "https://gestion.miowac.com.ar/uploads/stock/productos/49/4/colgante.jpeg",
+    "categoria": "flecos"
+  },
+  {
+    "id": 6,
+    "nombre": "Llavero Marinero",
+    "precio": 20.0,
+    "stock": 30,
+    "imagen": "https://gestion.miowac.com.ar/uploads/stock/productos/49/6/marinero.jpeg",
+    "categoria": "Marinero"
+  }
+]

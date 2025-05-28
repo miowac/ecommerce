@@ -1,0 +1,38 @@
+nav{
+    background-color: #c49073;
+    color: #f8f6f6;
+    padding: 10px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    align-items: center;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #c49073;
+    text-decoration-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.btnCart{
+    background-color:transparent;
+    border: none;
+    
+}
+
+.fa-cart-shopping{
+    color: rgb(92, 6, 6);
+}
