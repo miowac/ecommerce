@@ -1,12 +1,49 @@
-# React + Vite
+# Ecommerce con Panel de Administración
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación de ecommerce desarrollada con React, que incluye un panel de administración para gestionar productos. 
 
-Currently, two official plugins are available:
+Puedes clonar el repositorio y ejecutarlo localmente o adaptarlo a producción.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Características
 
-## Expanding the ESLint configuration
+- Catálogo de productos dinámico;
+- Carrito de compras persistente;
+- Gestión de usuarios y autenticación;
+- Panel de administración (CRUD de productos);
+- Filtros, búsqueda;
+- Responsive;
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Tecnologías
+
+- **Frontend:** React, React Router, Context API, VITE
+- **Backend:** mockapi.io
+- **Estilos:** Bootstrap
+- **Icons:** Bootstrap Icons / FontAwesome
+- **Accesibilidad:** ARIA tags
+
+# Instalación
+
+# 1. Clona el repositorio
+git clone https://github.com/miowac/ecommerce.git
+cd ecommerce
+
+# 2. Instala dependencias
+npm install
+
+# 3. Configura variables de entorno
+VITE_API_URL = https://miapi.com
+VITE_API_KEY = tu_clave
+
+# 4. Inicia el proyecto
+npm start
+
+El proyecto estará disponible en http://localhost:3000.
+
+# 5. Acceso al panel de administración
+- Para acceder al panel de administración:
+- Inicia sesión con un usuario administrador.
+- Navega a /admin.
+
+# 6. Contacto
+Desarrollado por Irene Olivera
+mio2372@hotmail.com
