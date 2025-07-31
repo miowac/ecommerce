@@ -7,7 +7,7 @@ Puedes clonar el repositorio y ejecutarlo localmente o adaptarlo a producción.
 # Características
 
 - Catálogo de productos dinámico;
-- Carrito de compras persistente;
+- Carrito de compras;
 - Gestión de usuarios y autenticación;
 - Panel de administración (CRUD de productos);
 - Filtros, búsqueda;
@@ -25,6 +25,7 @@ Puedes clonar el repositorio y ejecutarlo localmente o adaptarlo a producción.
 
 # 1. Clona el repositorio
 git clone https://github.com/miowac/ecommerce.git
+
 cd ecommerce
 
 # 2. Instala dependencias
