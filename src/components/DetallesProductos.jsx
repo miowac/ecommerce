@@ -40,7 +40,6 @@ const DetallesProductos = () => {
     )
   }
 
-
   return (
     <>
       <Header />
@@ -62,6 +61,7 @@ const DetallesProductos = () => {
           <img
             src={product.imagen}
             alt={product.nombre}
+            className="card-img-top img-fluid"
             style={{
               width: '100%',
               maxHeight: '300px',
@@ -85,18 +85,19 @@ const DetallesProductos = () => {
             <li>Marca: Miowac Design</li>
             <li>Categoría: {product.categoria}</li>
             <li>SKU: {product.id * 150}</li>
-            <li>Fecha de lanzamiento: {new Date().toLocaleDateString('es-ES', {
+            <li className='text-end'>Fecha de lanzamiento: {new Date().toLocaleDateString('es-ES', {
               day: 'numeric',
               month: 'numeric',
               year: 'numeric'
             })}</li>
           </ul>
         </details>
-        <p style={{ fontSize: '1rem', color: '#888', marginBottom: '1.5rem' }}>
+        <p style={{ fontWeight: 'bold', fontSize: '1.1rem', color: '#3e3f3fff' }}>
+        {/* <p style={{ fontSize: '1rem', color: '#888', marginBottom: '1.5rem' }}> */}
           Stock: {product.stock}
         </p>
         <Link
-          to="/"
+          to="/productos"
           style={{
             display: 'inline-block',
             padding: '0.5rem 1.5rem',
@@ -108,7 +109,7 @@ const DetallesProductos = () => {
             marginTop: '1rem',
           }}
         >
-          Volver a Home
+          Volver a Productos
         </Link>
       </section>
       <Footer />
