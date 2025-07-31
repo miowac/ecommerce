@@ -93,7 +93,6 @@ const DetallesProductos = () => {
           </ul>
         </details>
         <p style={{ fontWeight: 'bold', fontSize: '1.1rem', color: '#3e3f3fff' }}>
-        {/* <p style={{ fontSize: '1rem', color: '#888', marginBottom: '1.5rem' }}> */}
           Stock: {product.stock}
         </p>
         <Link
