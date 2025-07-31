@@ -39,12 +39,12 @@ export const AuthProvider = ({ children }) => {
 
       if (!foundUser) {
         setErrors({ email: 'credenciales invalidas' });
-      } else {
-        console.log('User role:', foundUser.role);
-        
+      } else {        
         if (foundUser.role === 'admin') {
           setIsAuth(true);
           localStorage.setItem('isAuth', true)
+          setEmail('')
+          setPassword('')
           navigate('/admin');
         } else {
           navigate('/');

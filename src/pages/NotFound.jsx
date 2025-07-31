@@ -10,20 +10,20 @@ const NotFound = () => {
       <h1 style={{ marginTop: '80px', color: '#c00', fontSize: '10rem' }}>404</h1>
 
       <Link
-                to="/"
-                style={{
-                  display: 'inline-block',
-                  padding: '0.5rem 1.5rem',
-                  background: '#787a7aff',
-                  color: '#fff',
-                  borderRadius: '6px',
-                  textDecoration: 'none',
-                  fontWeight: 'bold',
-                  marginTop: '1rem',
-                }}
-              >
-                Volver a Home
-              </Link>
+        to="/"
+        style={{
+          display: 'inline-block',
+          padding: '0.5rem 1.5rem',
+          background: '#787a7aff',
+          color: '#fff',
+          borderRadius: '6px',
+          textDecoration: 'none',
+          fontWeight: 'bold',
+          marginTop: '1rem',
+        }}
+      >
+        Volver a Home
+      </Link>
       
       <div style={{ marginBottom: '90px'}}></div>
         <Footer/>

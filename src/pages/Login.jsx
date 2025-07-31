@@ -1,4 +1,5 @@
 import React, { useState, useContext } from 'react';
+import { Link } from 'react-router-dom'
 import Footer from '../components/estaticos/Footer'
 import { CartContext } from '../context/CartContext';
 import { useAuth } from '../context/AuthContext';
@@ -22,7 +23,7 @@ const Login = () => {
       }}
     >
       <div style={{ display: 'flex', flexDirection: 'column' }}>
-      <div style={{ marginTop: '100px' }} className='text-center'>
+      <div style={{ marginTop: '70px' }} className='text-center'>
         <i className="fa fa-sign-in fa-5x" aria-hidden="true"></i>
       </div>
         <label htmlFor="formBasicEmail" style={{ marginBottom: '0.5rem', fontWeight: 'bold' }}>
@@ -80,11 +81,28 @@ const Login = () => {
           borderRadius: '0.25rem',
           cursor: 'pointer',
           fontSize: '1rem',
-          marginBottom: '100px'
         }}
       >
         Login
       </button>
+
+      <Link
+        to="/"
+        style={{
+          backgroundColor: '#4aa521ff',
+          display: 'inline-block',
+          padding: '0.75rem',
+          color: '#fff',
+          borderRadius: '6px',
+          textDecoration: 'none',
+          fontWeight: 'bold',
+          fontSize: '1rem',
+          marginBottom: '70px',
+          textAlign: 'center'
+        }}
+      >
+        Volver a Home
+      </Link>
 
 
     </form>
